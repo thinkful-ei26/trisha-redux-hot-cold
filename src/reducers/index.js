@@ -9,7 +9,7 @@ const initialState = {
 
 /* Your app should have a single reducer which handles any actions which you need to make the app's functionality work.*/
 
-const reducer = (set=initialState, action) => {
+const reducer = (state=initialState, action) => {
 
   switch (action.type) {
     case RESTART_GAME : 
